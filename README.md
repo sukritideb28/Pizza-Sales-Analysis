@@ -60,3 +60,6 @@ SELECT SUM(total_price)/ COUNT(DISTINCT order_id) AS 'AVG_ORDER_VALUE'
   FROM PIZZA_SALES$
   GROUP BY pizza_name
   ORDER BY TOTAL_REVENUE ASC;
+
+--Dashboard Interactions--
+  - <a href="https://github.com/sukritideb28/Pizza-Sales-Analysis/commit/ef003f7ef9e153f47da7f2937ff745c79f40ae2b">View Dashboard</a>
